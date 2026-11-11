@@ -10,7 +10,7 @@ Complete Klipper `printer.cfg` configuration for the **Mingda D2** 3D printer eq
 ## Hardware Specifications
 * **MCU:** `STM32F103ZET6` (72 MHz, 512KB Flash)
 * **Stepper Drivers:** 5x `TMC2208` with single-wire UART (Independent Dual Z: `Z` and `Z1`)
-* **Build Volume:** 230 x 230 x 250 mm
+* **Build Volume:** 230 x 230 x 260 mm
 * **Probe:** BLTouch (`PB1` sensor / `PB0` servo)
 
 ## MD D301 V1.0 Pinout Reference
