@@ -15,6 +15,12 @@ Complete Klipper `printer.cfg` configuration for the **Mingda D2** 3D printer eq
 * **Build Volume:** 230 x 230 x 260 mm
 * **Z Probe:** BLTouch / 3DTouch required (`PB1` sensor / `PB0` servo)
 
+## Firmware Compilation (`make menuconfig`)
+
+If you want to compile `firmware.bin` yourself (or use the pre-compiled one in this repo), configure `make menuconfig` with the following settings (note the **`!PA15`** startup pin required to enable the onboard USB pull-up resistor):
+
+![Klipper menuconfig](menuconfig.png)
+
 ## MD D301 V1.0 Pinout Reference
 
 | Component | Pin | Notes |
