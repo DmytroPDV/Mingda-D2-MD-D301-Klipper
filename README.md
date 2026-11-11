@@ -36,4 +36,4 @@ Complete Klipper `printer.cfg` configuration for the **Mingda D2** 3D printer eq
 * Automatic dual-Z gantry alignment via **`[z_tilt]`**.
 * Bed corner leveling helper via **`[screws_tilt_adjust]`**.
 * Stock TFT backlight switch (`lcd_backlight`) to turn off the unused screen.
-* Auto-heating **`LOAD_FILAMENT`**, **`UNLOAD_FILAMENT`**, and **`M600`** macros with beeper notifications.
+
